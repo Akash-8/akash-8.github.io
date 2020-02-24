@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>
+ABOUT HTML
+</title>
+<style>
+body {
+  background-image: url('b.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+table 
+{
+font-family:Lucida Fax;
+font-size:30;
+color:black;
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+ 
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #caf7ff;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #ffffbf;
+}
+table#t01 th {
+  background-color:dodgerblue;
+  color: white;
+</style>
+</head>
+<body>
+<marquee><h1>ABOUT HTML</H1></marquee>
+<pre style="font-size:20">
+<p  style="text-align:center;">HTML is the standard markup language for creating Web pages.</p>
+<p><a href="#a1" title="Contains information about basic HTML tags">Rollover the cursor for link information that is: Click here to go to the information about basic HTML Tags</a><br>
+<a href="#a2" title="Contains information about basic HTML lists">Rollover the cursor for link information that is: Click here to go to the information about HTML Lists</a><p>
+<ul><li>HTML stands for <mark>Hyper Text Markup Language.</mark></li>
+<li>HTML describes the structure of a Web page.</li>
+<li>HTML consists of a series of elements.</li>
+<li>HTML elements tell the browser how to display the content.</li>
+<li>HTML elements are represented by tags.</li>
+<li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.</li>
+</ul>
+Browsers do not display the HTML tags, but use them to render the content of the page
+HTML (HyperText Markup Language) is the most basic building block of the Web.  
+Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)..
+</pre>
+<hr>
+<table  id="t01">
+<caption><h2 id="a1">BASIC HTML TAGS</h2></caption>
+<tr>
+	<th>TAG</th>
+	<th>DESCRIPTION</th>
+</tr>
+<tr><th>&lt;!DOCTYPE&gt;</th><td>	Defines the document type.</td></tr>
+<tr><th>&lt;html&gt;</th>	<td>Defines an HTML document.</td></tr>
+<tr><th>&lt;head&gt;</th>	<td>Defines information about the document.</td></tr>
+<tr><th>&lt;title&gt;</th>	<td>Defines a title for the document.</td></tr>
+<tr><th>&lt;body&gt;</th>	<td>Defines the document's body.</td></tr>
+<tr><th>&lt;h1&gt;to&lt;h6&gt;</th>	<td>Defines HTML headings.</td></tr>
+<tr><th>&lt;p&gt;</th>	<td>Defines a paragraph.</td></tr>
+<tr><th>&lt;br&gt;</th>	<td>Insert a single line break.</td></tr>
+<tr><th>&lt;hr&gt;</th>	<td>Defines a thematic change in the content.</td></tr>
+<tr><th>&lt;!--....--&gt;</th>	<td>Defines a comment.</td></tr>
+</table>
+<table>
+<caption><h2 id="a2">LISTS IN HTML</h2></caption>
+<tr><th colspan="2"  style="text-align:center;">UNORDERED LIST</TH></tr>
+<tr><th>Value</th>	<th>Description</th></tr>
+<tr><th>Disc</th>	<td>Sets the list item marker to a Bullet(Default).</td></tr>
+<tr><th>Circle</th>	<td>Sets the list item marker to a circle.</td></tr>
+<tr><th>Square</th>	<td>Sets the list item marker to a square.</td></tr>
+<tr><th>None</th>	<td>The list iitems will not be marked.</td></tr>
+<tr><th colspan="2"  style="text-align:center;">ORDERED LIST</th></tr>
+<tr><th>TYPE</th>	<th>DESCRIPTION</th></tr>
+<tr><th>Type="1"</th>	<td>The list items will be numbered with numbers(default).</td></tr>
+<tr><th>Type="A"</th>	<td>The list items will be numbered with uppercase letters.</td></tr>
+<tr><th>Type="a"</th>	<td>The list items will be numbered with lowercase letters.</td></tr>
+<tr><th>Type="I"</th>	<td>The list items will be numbered with uppercase roman numbers.</td></tr>
+<tr><th>Type="i"</th>	<td>The list items will be numbered with lowercase roman numerals.</td></tr>
+</table>		
+</body>
+</html>
